@@ -1,0 +1,177 @@
+.body{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    background-color: #f7f7f7;
+    display: block;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 0;
+  }
+
+  /** body 안의 실제 컨텐츠 영역 */
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 1200px;
+    min-width: 1000px;
+    max-width: 1200px;
+    background-color: white;
+    padding: 0px;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* 중앙 정렬 */
+    margin-bottom: 50px;
+  }
+
+.bodylogo img{
+    margin: 100px 0px 30px;
+    font-size: 50px;
+    font-weight: bold;  
+    width : 350px;
+    text-align: center;
+}
+
+.bodylogo a{
+    color :#0020ff	;
+    text-decoration: none;
+}
+.text{
+    font-size: 40px;
+    color : #5a5858;
+    
+    margin-bottom: 20px;
+
+}
+
+.inputdiv{
+	font-size : 15px;
+    margin-bottom: 10px;
+    color :#323232; 
+	
+}
+
+.inputdiv input{
+	width : 380px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #000000;
+    border: 3px solid #828282;
+    margin-top: 10px;
+    padding-left: 15px; 
+}
+
+.inputdiv input:focus {
+	outline: none;
+	border: 3px solid blue;
+}
+
+.btn input{
+    margin-top: 20px;
+    width : 400px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0020ff;
+    color : #FAEBCD;
+    font-size: 20px;
+    font-weight: bolder;  
+    margin-bottom: 50px;
+}
+
+.btn input:hover {
+    background-color: #0040ff; 
+    cursor: pointer; 
+}
+
+
+.hide {
+  display: none;
+}
+
+ .popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999;
+	}
+		
+.popup-content {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+	}
+			
+.popup-message {
+	font-size: 18px;
+	margin-bottom: 10px;
+	}
+		
+.popup-button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	}
+		    
+		    
+		    .iddiv {
+		    	
+			    display: inline-block;
+			    font-size : 15px;
+			    margin-bottom: 10px;
+			    color :#323232; 
+				
+			}
+			
+			.iddiv input{
+				width : 293px;
+			    height: 60px;
+			    border-radius: 10px;
+			    font-size: 18px;
+			    color: #000000;
+			    border: 3px solid #828282;
+			    margin-top: 10px;
+			    padding-left: 15px; 
+			}
+			
+			
+			
+			.iddiv .id_check {
+			    width: 82px;
+			    height: 61px;
+			    border: none;
+			    border-radius: 10px;
+			    background-color: #0020ff;
+			    color: #FAEBCD;
+			    font-size: 15px;
+			    font-weight: bolder;
+			}
+			
+			
+			
+			.iddiv .id_check:hover {
+			    background-color: #0040ff;
+			    cursor: pointer; 
+			}
+
+		  
